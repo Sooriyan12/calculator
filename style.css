@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+    font-family: sans-serif;
+    outline: none;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+.Calculate{
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 30px;
+    box-shadow: inset   5px 5px 12px,
+                        5px 5px 12px;
+    display: grid;
+    grid-template-columns: repeat(4,70px);
+
+}
+input{
+    grid-column: span 4;
+    height: 70px;
+    width: 270px;
+    background-color: aliceblue;
+    box-shadow: inset -5px -5px 12px wheat,
+                inset 5px 5px 12px rgb(0, 0, 0);
+    border: 0;
+    border-radius: 30px;
+    color:rgb(70,70,70);
+    font-size: 50px;
+    text-align: end;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    padding: 20px;    
+}
+button{
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    align-items: center;
+    box-shadow: inset -2px -2px 5px rgba(245, 222, 179, 0.048),
+                inset 3px 3px 5px rgb(133, 122, 122);
+    font-size: 16px;
+     
+}
+.bluebut{
+    background-color: rgb(176, 176, 230);
+    color: white;
+}
+.equal{
+    background-color: rgb(212, 89, 89);
+    color: white;
+}
